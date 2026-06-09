@@ -1,0 +1,9 @@
+Lab 2: Image Denoising Using Frequency Domain Transforms
+
+Requirement:
+
+Load raw image (raw.JPG) and given noise images (noisy_gaussian.jpg, noisy_salt_pepper.jpg, noisy_periodic.jpg).
+
+Implement/Practice noise filtering, calculate and compare the quanlity of images before and after filtering by PSNR and SSIM.
+
+Display the result: raw image - noise image - image after filtering

@@ -1,0 +1,16 @@
+# Core numeric and image-processing stack for classic computer vision.
+numpy
+scipy
+opencv-contrib-python
+scikit-image
+Pillow
+imageio
+
+# Plotting, notebooks, and learning workflow.
+matplotlib
+jupyterlab
+ipykernel
+
+# Traditional machine-learning utilities used with handcrafted features.
+scikit-learn
+tqdm
