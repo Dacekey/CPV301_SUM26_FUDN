@@ -1,0 +1,3 @@
+Summary experiment:
+1. findChessboardCornersSB worked (with img after crop + enhance contrast with equalizeHist), but with only the direct orient ones.
+2. re-build dataset with black-white clear, distance closer
