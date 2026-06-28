@@ -3,9 +3,12 @@
 venv/
 env/
 
-# Python cache files
+# Python packaging & cache files
 __pycache__/
 *.py[cod]
+*.egg-info/
+build/
+dist/
 
 # Jupyter notebook runtime/cache files
 .ipynb_checkpoints/
