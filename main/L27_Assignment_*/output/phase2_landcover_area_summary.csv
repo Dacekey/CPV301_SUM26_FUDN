@@ -1,0 +1,11 @@
+crop,class_id,class_name,pixels,percent
+above,0,Water,120846,61.957056724498585
+above,1,Dense vegetation,71630,36.72429350723924
+above,2,Built-up/bare,1700,0.8715803289446701
+above,3,Sand/exposed soil,281,0.14406710143144252
+above,4,Mixed/shadow,591,0.3030023378860588
+below,0,Water,122089,52.4980757571197
+below,1,Dense vegetation,76304,32.81059860078518
+below,2,Built-up/bare,26265,11.293908212539613
+below,3,Sand/exposed soil,1612,0.6931574353174893
+below,4,Mixed/shadow,6289,2.704259994238021

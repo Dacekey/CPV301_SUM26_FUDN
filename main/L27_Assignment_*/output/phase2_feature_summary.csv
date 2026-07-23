@@ -1,0 +1,3 @@
+crop,canny_low,canny_high,edge_pixels,edge_density,orb_keypoints
+above,45,90,4703,0.024112013453098723,250
+below,41,82,16286,0.07002954089069871,250

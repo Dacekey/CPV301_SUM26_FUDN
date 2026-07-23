@@ -1,0 +1,21 @@
+date,crop,class_id,class_name,pixels,percent_valid
+2024,above,0,Water,120628,61.845289364669206
+2024,above,1,Dense vegetation,71630,36.72429350723924
+2024,above,2,Built-up/urban proxy,1471,0.7541733316927116
+2024,above,3,Sand/exposed soil,605,0.31018005824207373
+2024,above,4,Mixed/shadow/other,714,0.3660637381567614
+2026_aligned,above,0,Water,120206,61.628932365366474
+2026_aligned,above,1,Dense vegetation,71747,36.784278741643085
+2026_aligned,above,2,Built-up/urban proxy,1893,0.9705303309954472
+2026_aligned,above,3,Sand/exposed soil,586,0.3004388663303392
+2026_aligned,above,4,Mixed/shadow/other,616,0.3158196956646569
+2024,below,0,Water,122049,52.480875820759465
+2024,below,1,Dense vegetation,76304,32.81059860078518
+2024,below,2,Built-up/urban proxy,25971,11.167488680291884
+2024,below,3,Sand/exposed soil,1971,0.8475268641506026
+2024,below,4,Mixed/shadow/other,6264,2.693510034012874
+2026_aligned,below,0,Water,120908,51.990247636083744
+2026_aligned,below,1,Dense vegetation,79102,34.01373414918365
+2026_aligned,below,2,Built-up/urban proxy,24184,10.399081523398364
+2026_aligned,below,3,Sand/exposed soil,1750,0.7524972157603017
+2026_aligned,below,4,Mixed/shadow/other,6615,2.84443947557394

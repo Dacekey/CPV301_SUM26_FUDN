@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Phase 0: Setup \& Data Collection}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Area of Interest (AOI) and Dataset}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Sentinel-2 Multispectral Image Formation vs. Standard RGB Cameras}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Spectral Bands Utilized}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Phase 1: Image Processing}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objective and Input Data}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}NDVI Computation}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}NDVI Quantitative Comparison}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Denoising and Contrast Enhancement}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Phase 2: Segmentation \& Features}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Feature and Edge Detection}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Land-Cover Segmentation}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Sanity-Check Validation}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Phase 3: Alignment \& Stitching}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Methodology}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Temporal Co-registration (2026 to 2024)}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Image Stitching}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Phase 4: Detection \& Change Tracking}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Object Detection: Built-up Regions}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Change Tracking}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}False Change Controls}{15}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Phase 5: Conclusion \& Reflection}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Limitations and Critical Reflection}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}AI Audit Log}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Peer Evaluation Form}{17}{subsection.6.3}%

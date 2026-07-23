@@ -1,0 +1,6 @@
+region_id,crop,roi_x,roi_y,roi_w,roi_h,center_lon,center_lat,expected_land_use,acceptable_labels,majority_label,majority_percent,status,notes
+R1,above,220,90,100,80,108.25422341860465,16.140618015873017,Forested Son Tra hillside,Dense vegetation,Dense vegetation,98.3875,Match,Should be mostly vegetation; small edge/water pixels can appear near steep coastal boundaries.
+R2,above,420,20,120,70,108.29194907751938,16.15357396825397,Open coastal water,Water,Water,100.0,Match,Dark offshore water is expected; this region tests whether water is separated from shadows.
+R3,below,130,180,160,80,108.24346614670256,16.089765252396166,Dense urban/built-up grid,Built-up/bare,Built-up/bare,56.49999999999999,Match,"Urban blocks include roads, rooftops, vegetation, and shadows, so mixed pixels are expected."
+R4,below,250,190,80,60,108.25784601211305,16.089765252396166,Beach and nearshore water corridor,Water; Sand/exposed soil,Water,95.95833333333333,Match,"A 10 m Sentinel-2 pixel can mix beach sand, surf, shallow water, and built edges."
+R5,below,20,120,75,55,108.2160545282638,16.10229547603834,Harbor or bay water,Water,Water,100.0,Match,Sediment and shallow water may reduce NDVI/NDWI separation near the shoreline.

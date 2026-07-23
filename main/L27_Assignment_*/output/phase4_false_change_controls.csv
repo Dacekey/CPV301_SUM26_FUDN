@@ -1,0 +1,3 @@
+crop,valid_pixels,cloud_shadow_excluded_pixels,both_water_excluded_pixels,clean_land_pixels,strong_change_pixels,strong_change_percent_of_clean_land
+above,195048,1420,119948,74511,722,0.9689844452496947
+below,232559,1665,120661,110836,1665,1.5022194954707857

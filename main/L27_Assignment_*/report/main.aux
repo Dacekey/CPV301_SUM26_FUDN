@@ -1,0 +1,74 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Phase 0: Setup \& Data Collection}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Area of Interest (AOI) and Dataset}{3}{subsection.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Representative true-color Sentinel-2 images collected for the AOI. The dataset covers two dates and two overlapping crops per date.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:phase0_dataset_overview}{{1}{3}{Representative true-color Sentinel-2 images collected for the AOI. The dataset covers two dates and two overlapping crops per date}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Collected Sentinel-2 dataset summary.}}{3}{table.1}\protected@file@percent }
+\newlabel{tab:phase0_dataset_summary}{{1}{3}{Collected Sentinel-2 dataset summary}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Sentinel-2 Multispectral Image Formation vs. Standard RGB Cameras}{3}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Spectral Bands Utilized}{4}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Phase 1: Image Processing}{4}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Objective and Input Data}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}NDVI Computation}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces NDVI heatmaps for the upper and lower AOI crops in 2024 and 2026. Green regions indicate higher NDVI values, while red/yellow regions indicate lower NDVI values.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:phase1_ndvi_heatmaps}{{2}{5}{NDVI heatmaps for the upper and lower AOI crops in 2024 and 2026. Green regions indicate higher NDVI values, while red/yellow regions indicate lower NDVI values}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}NDVI Quantitative Comparison}{5}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces NDVI summary statistics for both AOI crops and both dates.}}{5}{table.2}\protected@file@percent }
+\newlabel{tab:phase1_ndvi_stats}{{2}{5}{NDVI summary statistics for both AOI crops and both dates}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Mean NDVI comparison between 2024 and 2026 for the upper and lower AOI crops.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:phase1_ndvi_mean_comparison}{{3}{6}{Mean NDVI comparison between 2024 and 2026 for the upper and lower AOI crops}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces NDVI difference maps computed as 2026 NDVI minus 2024 NDVI. Positive values indicate areas where NDVI increased, while negative values indicate areas where NDVI decreased.}}{6}{figure.4}\protected@file@percent }
+\newlabel{fig:phase1_ndvi_difference}{{4}{6}{NDVI difference maps computed as 2026 NDVI minus 2024 NDVI. Positive values indicate areas where NDVI increased, while negative values indicate areas where NDVI decreased}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Denoising and Contrast Enhancement}{6}{subsection.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Before/after comparison for the 2024 true-color imagery. Each AOI crop is shown as original true color, Gaussian-denoised output, and HSV histogram-equalized output.}}{7}{figure.5}\protected@file@percent }
+\newlabel{fig:phase1_filter_contrast_comparison}{{5}{7}{Before/after comparison for the 2024 true-color imagery. Each AOI crop is shown as original true color, Gaussian-denoised output, and HSV histogram-equalized output}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Phase 2: Segmentation \& Features}{7}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Feature and Edge Detection}{7}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Left: Canny edge detection highlighting structural boundaries. Right: ORB keypoints clustering over highly textured urban and industrial zones.}}{8}{figure.6}\protected@file@percent }
+\newlabel{fig:phase2_features}{{6}{8}{Left: Canny edge detection highlighting structural boundaries. Right: ORB keypoints clustering over highly textured urban and industrial zones}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Land-Cover Segmentation}{8}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean Shift segmentation results assigning distinct color labels to different land-cover categories based on spectral characteristics.}}{8}{figure.7}\protected@file@percent }
+\newlabel{fig:phase2_segmentation}{{7}{8}{Mean Shift segmentation results assigning distinct color labels to different land-cover categories based on spectral characteristics}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Sanity-Check Validation}{8}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces OpenStreetMap (OSM) Basemap serving as our reference ground-truth for qualitative validation. This high-resolution context allows us to visually pinpoint specific land-cover types prior to evaluating the algorithm's performance.}}{9}{figure.8}\protected@file@percent }
+\newlabel{fig:phase2_osm_reference}{{8}{9}{OpenStreetMap (OSM) Basemap serving as our reference ground-truth for qualitative validation. This high-resolution context allows us to visually pinpoint specific land-cover types prior to evaluating the algorithm's performance}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Validation regions comparing our Mean Shift segmentation against the OSM Basemap.}}{9}{figure.9}\protected@file@percent }
+\newlabel{fig:phase2_validation}{{9}{9}{Validation regions comparing our Mean Shift segmentation against the OSM Basemap}{figure.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Phase 3: Alignment \& Stitching}{10}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Methodology}{10}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Temporal Co-registration (2026 to 2024)}{10}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces SIFT keypoint matches between the 2026 (moving) and 2024 (fixed) images. The green lines denote geometric inliers retained by RANSAC.}}{11}{figure.10}\protected@file@percent }
+\newlabel{fig:phase3_coregistration_matches}{{10}{11}{SIFT keypoint matches between the 2026 (moving) and 2024 (fixed) images. The green lines denote geometric inliers retained by RANSAC}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Visual comparison of the 2026 imagery before and after co-registration onto the 2024 reference frame.}}{11}{figure.11}\protected@file@percent }
+\newlabel{fig:phase3_coregistration_comparison}{{11}{11}{Visual comparison of the 2026 imagery before and after co-registration onto the 2024 reference frame}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Absolute difference maps between 2024 and 2026. Left: Before alignment, showing severe misregistration artifacts. Right: After alignment, with false-change artifacts eliminated.}}{12}{figure.12}\protected@file@percent }
+\newlabel{fig:phase3_coregistration_difference}{{12}{12}{Absolute difference maps between 2024 and 2026. Left: Before alignment, showing severe misregistration artifacts. Right: After alignment, with false-change artifacts eliminated}{figure.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Image Stitching}{12}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces SIFT keypoint matching between the upper and lower AOI crops, allowing for the estimation of the stitching homography.}}{12}{figure.13}\protected@file@percent }
+\newlabel{fig:phase3_stitching_matches}{{13}{12}{SIFT keypoint matching between the upper and lower AOI crops, allowing for the estimation of the stitching homography}{figure.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Final stitched mosaics for the complete AOI in both 2024 and 2026, generated via feature-based alignment and feather blending.}}{13}{figure.14}\protected@file@percent }
+\newlabel{fig:phase3_stitched_mosaics}{{14}{13}{Final stitched mosaics for the complete AOI in both 2024 and 2026, generated via feature-based alignment and feather blending}{figure.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Phase 4: Detection \& Change Tracking}{13}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Object Detection: Built-up Regions}{13}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Detection of built-up / urban proxy regions for both 2024 and the co-registered 2026 imagery.}}{13}{figure.15}\protected@file@percent }
+\newlabel{fig:phase4_builtup_detection}{{15}{13}{Detection of built-up / urban proxy regions for both 2024 and the co-registered 2026 imagery}{figure.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Change Tracking}{14}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Binary difference maps highlighting raw pixel-level changes in built-up areas between 2024 and 2026.}}{14}{figure.16}\protected@file@percent }
+\newlabel{fig:phase4_difference_maps}{{16}{14}{Binary difference maps highlighting raw pixel-level changes in built-up areas between 2024 and 2026}{figure.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Change tracking of built-up areas. Red bounding boxes highlight the largest contiguous regions of newly detected urban infrastructure in 2026 compared to 2024.}}{14}{figure.17}\protected@file@percent }
+\newlabel{fig:phase4_builtup_change_tracking}{{17}{14}{Change tracking of built-up areas. Red bounding boxes highlight the largest contiguous regions of newly detected urban infrastructure in 2026 compared to 2024}{figure.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Zoomed-in tracking of the top regions with the most significant urban expansion.}}{15}{figure.18}\protected@file@percent }
+\newlabel{fig:phase4_top_change_regions}{{18}{15}{Zoomed-in tracking of the top regions with the most significant urban expansion}{figure.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}False Change Controls}{15}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Demonstration of false change controls. The pipeline actively rejects clouds, shadows, and isolated noise pixels to ensure only genuine land-cover changes are tracked.}}{16}{figure.19}\protected@file@percent }
+\newlabel{fig:phase4_false_change_controls}{{19}{16}{Demonstration of false change controls. The pipeline actively rejects clouds, shadows, and isolated noise pixels to ensure only genuine land-cover changes are tracked}{figure.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Phase 5: Conclusion \& Reflection}{16}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Limitations and Critical Reflection}{16}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}AI Audit Log}{16}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Peer Evaluation Form}{17}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Group 3 Peer Evaluation Form}}{17}{table.3}\protected@file@percent }
+\newlabel{tab:peer_evaluation}{{3}{17}{Group 3 Peer Evaluation Form}{table.3}{}}
+\gdef \@abspage@last{17}
